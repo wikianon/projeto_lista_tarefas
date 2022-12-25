@@ -26,6 +26,8 @@ class TodoListItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 3),
+
+      //Arrastando da esquerda para a direita para deletar os items
       child: Slidable(
         startActionPane: ActionPane(
           motion: const ScrollMotion(),
