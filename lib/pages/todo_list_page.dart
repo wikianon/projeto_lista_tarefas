@@ -175,7 +175,7 @@ class _TodoListPageState extends State<TodoListPage> {
                           //na borda da caixa e mostra o hintText
                           //como exemplo de entrada.
                           labelText: 'Adicione uma tarefa',
-                          hintText: 'Ex: Estudar Flutte',
+                          hintText: 'Ex: Estudar Flutter',
                         ),
                       ),
                     ),
